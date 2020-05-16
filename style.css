@@ -13,7 +13,7 @@ a{
 .navbar {
     border-bottom: solid;
     font-size: 20px;
-    background-color: pink;
+    background-color: #f0f0f0;
     padding: 5px;
     
 }
@@ -30,17 +30,19 @@ a{
 	float: right;
 }
 #heading{
-	
+	background-image: linear-gradient(#0779e4 20%, #77d8d8);
+	text-align:center;
 	width: 610px;
 	height: 80px;
 	margin: auto;
-	border: 2px solid black;
+	border: 1px solid black;
 	padding: 5px;
 
 }
 
 
 h2{
+	background-image: linear-gradient(#0779e4 20%, #77d8d8);
 	border: 0.5px solid black;
 	font-color: white;
 	padding-left: 2px;
@@ -56,16 +58,14 @@ h2{
 	display: none;
 
 }
-.c_content a:hover{
-	background-color: blue;
-	color: lime;
-}
+
+
 
 #container {
     width: 620px;
     height: 1950px;
     margin: auto;
-    background-color: #b4f2e1;
+    background-color: #faf4ff;
 }
 
 .img{
@@ -84,7 +84,9 @@ h2{
 }
 
 #h2_bottom{
-	margin-bottom: -20px;
+	margin-bottom: -10px;
 }
 
-
+h4{
+	margin-bottom: -10px;
+}
