@@ -45,8 +45,8 @@ a{
 h2{
 	background-color: gradient;
 	padding-left: 2px;
-	border: 1px solid black;
-	border-radius: 2px;
+	border: 5px solid black;
+	border-radius: 3px;
 }
 .certificate_content{
 	background-color: yellow;
@@ -71,7 +71,7 @@ h2{
 .img{
 	text-align: center;
 	border-radius: 5px;
-	width: 500px;
+	width: 100%;
 	height: 550px;
 
 }
