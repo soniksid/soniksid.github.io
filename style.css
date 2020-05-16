@@ -30,24 +30,24 @@ a{
 	float: right;
 }
 #heading{
-	background-color: grey;
-	width: 150px;
+	
+	width: 610px;
 	height: 80px;
-	margin-left: 355px;
-	margin-right: 800px;
+	margin: auto;
 	border: 2px solid black;
 	padding: 5px;
+
 }
 
 
+h2{
+	border: 0.5px solid black;
+	font-color: white;
+	padding-left: 2px;
+	border-radius: 3px;
 	
 }
-h2{
-	background-color: gradient;
-	padding-left: 2px;
-	border: 5px solid black;
-	border-radius: 3px;
-}
+
 .certificate_content{
 	background-color: yellow;
 	color: black;
@@ -65,7 +65,7 @@ h2{
     width: 620px;
     height: 1950px;
     margin: auto;
-    background-color: peachpuff;
+    background-color: #b4f2e1;
 }
 
 .img{
