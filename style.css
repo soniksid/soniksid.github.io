@@ -1,12 +1,12 @@
 
 body{
-
-
-	background-image: url("http://blog.goeventz.com/wp-content/uploads/2016/01/party.jpg");
+	background-image: url("https://thumbs.dreamstime.com/z/forest-foggy-landscape-flat-vector-illustration-nature-scenery-fir-trees-hill-peaks-silhouettes-horizon-forest-foggy-169441823.jpg");
+	background-image-width: 100%;
+	background-image-height: 300%;
   	background-color: grey;
  	font-family: 'Lato', sans-serif;
-  	line-height: 1.7; /* line-height is unit-less */
- 	font-size: 100%;
+  	line-height: 1.7; 
+ 	
 }
 
 a{
@@ -53,22 +53,12 @@ h2{
 	
 }
 
-.certificate_content{
-	background-color: yellow;
-	color: black;
-	text-decoration: none;
-	padding: 5px;
-	display: none;
-
-}
-
-
-
 #container {
     width: 600px;
     height: 1950px;
     margin: auto;
-    background-color: seagreen;
+   	background-color: lightblue;
+    
 }
 
 
