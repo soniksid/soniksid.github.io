@@ -44,7 +44,7 @@ a{
 h2{
 	background-image: linear-gradient(#0779e4 20%, #77d8d8);
 	border: 0.5px solid black;
-	font-color: white;
+	color: white;
 	padding-left: 2px;
 	border-radius: 3px;
 	
@@ -65,12 +65,12 @@ h2{
     width: 620px;
     height: 1950px;
     margin: auto;
-    background-color: #faf4ff;
+    background-color: seagreen;
 }
 
 .img{
 	text-align: center;
-	border-radius: 5px;
+	border-radius: 10px 10px 0px 0px;
 	width: 100%;
 	height: 550px;
 
