@@ -1,17 +1,12 @@
 
 body{
-	background-image: url("https://thumbs.dreamstime.com/z/forest-foggy-landscape-flat-vector-illustration-nature-scenery-fir-trees-hill-peaks-silhouettes-horizon-forest-foggy-169441823.jpg");
-	background-image-width: 100%;
-	background-image-height: 300%;
-  	background-color: grey;
  	font-family: 'Lato', sans-serif;
-  	line-height: 1.7; 
+  	line-height: 1.5;
+  	background-color: grey;
  	
 }
 
-a{
-	text-decoration: none;
-}
+
 
 .navbar {
     border-bottom: solid;
@@ -26,62 +21,26 @@ a{
 	box-shadow: 5px 10px 10px grey;
 	background-color: orange;
 	color: black;
-	padding: 14px 16px;
-}
-
-#navbar_right{
-	float: right;
-}
-#heading{
-	background-image: linear-gradient(#0779e4 20%, #77d8d8);
-	text-align:center;
-	width: 610px;
-	height: 80px;
-	margin: auto;
-	border: 1px solid black;
-	padding: 5px;
-
 }
 
 
-h2{
-	background-image: linear-gradient(#0779e4 20%, #77d8d8);
-	border: 0.5px solid black;
-	color: white;
-	padding-left: 2px;
-	border-radius: 3px;
-	
-}
 
-#container {
+#box{
     width: 600px;
-    height: 1950px;
     margin: auto;
-   	background-color: lightblue;
+   	background-color: white;
     
 }
 
 
 .img{
 	text-align: center;
-	border-radius: 10px 10px 0px 0px;
 	width: 100%;
-	height: 550px;
-	margin:auto;
-
+	height: 400px;
 }
 
-.main{
-	padding: 10px;
-	width: 600px;
-	height: 1000px;
-	display: block;
-}
+.second{
+	text-align: center;
+	padding: 5px;
 
-#h2_bottom{
-	margin-bottom: -10px;
-}
-
-h4{
-	margin-bottom: -10px;
 }
