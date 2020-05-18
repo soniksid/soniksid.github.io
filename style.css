@@ -36,7 +36,7 @@ li{
 
 
 #box{
-	border-radius: 5px 5px 0 0;
+	border-radius: 5px;
 	margin-top: 20px;
     width: 600px;
     margin: auto;
@@ -51,36 +51,57 @@ li{
 	height: 400px;
 }
 
-.imgbox{
+.imgbox {
 	text-align: center;
     position: absolute;
-    margin: auto;
-    top: 340px;
+    top: 400px;
     left: 530px;
     color: black;
+}
+.imgbox h2{
+	margin-bottom: -20px;
 }
 
 
 .bio{
-	display: inline-block;
+	display: block;
 	text-align: center;
 	padding: 50px;
 	height: 380px;
-	text-decoration:none;
+	text-decoration: none;
 }
 
 
 
-
-#biobox{
+/*id for visit my website*/
+#biobox {
+	text-decoration: none;
 	border-radius: 5px;
 	margin: auto;
-	background-color: red;
+	background-color: darkred;
 	padding-top: 10px;
 	color: white;
 	width: 18em;
 	height: 2.5em;
+	box-shadow: 2px 2px 15px grey;
+
 }
+#tweet{
+	height: 30px;
+}
+
+   
+	
+
+
+
+/*id for bio*/
+#content{
+	text-align: left;
+	background-color: white;
+	width:100%;
+}
+
 #para{
-	padding-bottom:-20px;
+	margin:-25px;
 }
