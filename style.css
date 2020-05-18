@@ -7,16 +7,17 @@ body{
 }
 	
 ul {
+	font-size: 18px;
 	display: block;
 	background-color: white;
   	list-style-type: none;
-  	padding: 14px 16px;
+  	padding: 25px 16px;
   	overflow: hidden;
   	border-radius: 5px;
 }
 li{
 	float: left;
-	padding-right: 10px;
+	padding-right: 20px;
 }
     
 .li a{
@@ -27,8 +28,9 @@ li{
 .li a:hover{
 	padding:10px;
 	box-shadow: 5px 10px 10px grey;
-	background-color: orange;
-	color: black;
+	background-color: darkred;
+	color: white;
+	border-radius: 5px;
 }
 
 
@@ -64,18 +66,21 @@ li{
 	text-align: center;
 	padding: 50px;
 	height: 380px;
+	text-decoration:none;
 }
 
-#biobox a{
-	text-decoration: none;
-}
+
+
 
 #biobox{
 	border-radius: 5px;
 	margin: auto;
-	background-color: darkred;
+	background-color: red;
 	padding-top: 10px;
 	color: white;
 	width: 18em;
 	height: 2.5em;
+}
+#para{
+	padding-bottom:-20px;
 }
