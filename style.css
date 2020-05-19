@@ -6,14 +6,16 @@ body{
 }
 	
 ul {
-	width: auto;
+	margin-top: -100px;
+	position: fixed;
+	width: 100%;
 	font-size: 18px;
 	display: block;
 	background-color: white;
   	list-style-type: none;
   	padding: 25px 16px;
   	overflow: hidden;
-  	border-radius: 5px;
+  	border-radius: 0px;
 }
 
 li{	
@@ -37,7 +39,7 @@ li{
 
 #box{
 	border-radius: 5px;
-    width: 620px;
+    width: 600px;
     margin: 100px auto;
    	background-color: white;
     
