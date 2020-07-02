@@ -177,7 +177,7 @@ nav {
 nav em {
 	font-style: normal;
 	margin-left: 5px;
-	font-size: 14px;
+	font-size: 30px;
 }
 
 nav ul li i {
@@ -185,7 +185,7 @@ nav ul li i {
 }
 
 nav ul li a {
-	font-size: 18px;
+	font-size: 30px;
 }
 
 nav .mini-logo {
@@ -225,18 +225,19 @@ nav a, nav a:visited, nav a:active {
   color: #fff;
 }
 nav a {
+	border-radius: 5px;
 	text-decoration: none!important;
 	font-size: 14px;
 	letter-spacing: 0.5px;
-  	-webkit-transition: color 2s, background 1s;
+  	
   	transition: color 2s, background 1s;
   	padding: 20px 30px;
   	position: relative;
   	z-index: 0;
 }
 nav a.active {
-  background-color: #fff;
-  color: #232323;
+  background-color: grey;
+  color: white;
 }
 nav a::before {
   content: "";
@@ -250,13 +251,9 @@ nav a::before {
 }
 nav a:hover {
 	text-decoration: none;
-  -webkit-animation: fillColour 0.7s forwards ease-in-out;
-          animation: fillColour 0.7s forwards ease-in-out;
-}
-nav a:hover::before {
-  -webkit-animation: fill 0.7s forwards ease-in-out;
-          animation: fill 0.7s forwards ease-in-out;
-  opacity: 1;
+	background-color: grey;
+	border-radius: 5px;
+  
 }
 
 .slides {
@@ -278,9 +275,9 @@ nav a:hover::before {
   overflow-y: scroll;
   position: relative;
   width: 70%;
-  height: 80%;
+  height: 90%;
   left: 30%;
-  top: 10%;
+  top: 5%;
   bottom: 10%;
   background: rgba(0, 0, 0, 0.8);
 }
@@ -295,10 +292,10 @@ nav a:hover::before {
 }
 
 .slides .slide:nth-child(1) {
-  background-image: url(../img/first_bg.jpg);
+  background-image: url(../img/first.jpg);
 }
 .slides .slide:nth-child(2) {
-  background-image: url(../img/second_bg.jpg);
+  background-image: url(../img/second1.jpg);
 }
 .slides .slide:nth-child(3) {
   background-image: url(../img/third_bg.jpg);
@@ -331,7 +328,7 @@ nav a:hover::before {
 
 .first-content .author-image img {
 	margin-top: 15px;
-	height: 150px;
+	height: 15	0px;
 	border-radius: 100%;
 	max-width: 100%;
 	overflow: hidden;
@@ -397,7 +394,7 @@ nav a:hover::before {
 	font-size: 13px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	color: #232323;
+	color: #232333;
 	text-decoration: none;
 	transition: all 0.5s;
 }
@@ -547,12 +544,6 @@ nav a:hover::before {
 
 
 
-.fifth-content #map {
-	padding: 20px;
-	float: left;
-}
-
-
 .footer .content {
 	left: 30%;
 	width: 70%;
@@ -625,6 +616,7 @@ nav a:hover::before {
 	
 
 	.fifth-content #contact {
+		border-radius: 10px;
 		padding: 30px 30px 30px 30px;
 	}
 
@@ -697,4 +689,20 @@ nav a:hover::before {
 	nav a {
 	  	padding: 15px 20px;
 	}
+}
+.svg-icon{
+	border: 2.5px solid;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	border-radius: 100%;
+	background-color: grey;
+	color: black;
+	margin: 100px;
+	height: 100px !important;
+	width: 100px !important;
+}
+
+.svg-icon:hover{
+	background-color: black;
+	color: white;
 }
