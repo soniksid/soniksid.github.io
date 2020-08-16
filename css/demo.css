@@ -1,0 +1,164 @@
+body{
+	background-color: grey;
+	margin: 1px;
+	font-family: sans-serif;
+}
+
+h1{
+	box-shadow: 2px 8px 15px black;
+	border: 5px  solid black;
+	border-width: 50px
+	padding-top: 25px;
+	padding-bottom: 20px;
+	font-size: 30px;
+}
+
+hr{
+	height: 10px;
+	width: 500px;
+}
+
+p{
+	padding-left: 20px;
+	text-align: center;
+	font-size: 30px;
+}
+img{
+	text-align: center;
+}
+
+
+.first{
+	box-shadow: 2px 5px 15px grey;
+	text-align: center;
+	background: #b6eb7a;
+	height: 800px;
+	width: 800px;
+}
+
+.box_image{
+	margin-top: 20px;
+	text-align: center;
+	height: 350px;
+	width: 320px;
+	border-radius: 100%;
+	box-shadow: 10px 10px 50px black;
+}
+button{
+	display: flex;
+	text-align: center;
+	margin: auto;
+}
+
+.second{
+	margin-top: -30px;
+	text-align: center;
+	background: #e0dede;
+	height: 800px;
+	width: 800px;
+}
+
+.third{
+	margin-top: -30px;
+	text-align: center;
+	background: #fc9d9d;
+	height: 800px;
+	width: 800px;
+}
+
+.fourth{
+	margin-top: -30px;
+	text-align: center;
+	background: #f6acc8;
+	height: 800px;
+	width: 800px;
+}
+
+.footer{
+	padding: auto; 
+	margin-top: -25px;
+	text-align: center;
+	background: #f6ccc9;
+	height: 400px;
+	width: 800px;
+}
+
+
+
+@media (min-width: 500px){
+	body{
+		margin: 1px; 
+		font-size: 5px;
+	}
+	p{
+		font-size: 20px;
+	}
+	h1{
+		box-shadow: 2px 8px 15px black;
+	}
+	button{
+		display: flex;
+		text-align: center;
+		margin: auto;
+	}
+	.first{
+		width: auto;
+		background: #f8615a;
+	}
+	.second{
+		width: 100%;
+		background: #99d8d0;	
+	}
+	.third{
+		width: 100%;
+		background: #eb4559;
+	}
+	.fourth{
+		width: 100%;
+		background: #ffe9c5;
+	}
+	.footer{
+		width: 100%;
+		background: #ffa9c5;
+	}
+	.box_image{
+		display: inline-block;
+		text-align: center;
+		height: 350px;
+		width: 320px;
+		border-radius: 100%;
+	}
+
+}
+@media (min-width: 600px){
+	.box_image{
+		height: 400px;
+		width: 370px;
+	}
+}
+@media (min-width: 1000px){
+	.box_image{
+		height: 400;
+		width: 380;
+	}
+}
+
+/*css for twitter icon*/
+.svg-icon {
+	padding: 30px;
+  width: 30px;
+  height: 30px;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #4691f6;
+}
+
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+}
+
+
