@@ -4,6 +4,12 @@ body{
 	font-family: sans-serif;
 }
 
+.header{
+	display: inline;
+	font-size: 20px;
+	background-color: grey;
+}
+
 h1{
 	box-shadow: 2px 8px 15px black;
 	border: 5px  solid black;
