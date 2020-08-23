@@ -5,20 +5,31 @@ body{
 }
 
 .header{
+	margin-top: 0px;
+	display: inline-block;
 	border-width: 50px;
 	box-shadow: 2px 8px 15px black;
 	padding: 10px;
 	width: 800px;
 	float: left;
 	font-size: 30px;
-	background-color: grey;
+	background-color: white;
 }
 .header-list li{
-	font-size: 30px;
-	width: 800px;
+
 	float: right;
 	list-style: none;
 
+}
+.header-list{
+	color: black;
+	border-width: 50px;
+	box-shadow: 2px 8px 15px black;
+	padding-left: 10px;
+	font-size: 30px;
+	background-color: white;
+	display: inline;
+	
 }
 
 h1{
