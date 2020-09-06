@@ -5,10 +5,23 @@ body{
 	/*font-family: 'Orbitron', sans-serif;*/
 }
 
-
 h2{
 	text-align: center;
+	margin-bottom: 5px;
 }
+
+img{
+	margin-right: 5px;
+	color:  black; 
+	height: 15px;
+	width: 15px;
+}
+
+.social-icons{
+	text-align: center;
+	display: block;
+}
+
 
 
 p{
@@ -20,12 +33,14 @@ p{
 }
 
 .main-content{
+	margin-bottom:0px;
 	height: auto;
 	width: 360px;
 	background-color: #5eaaa8;
 }
 
 .navbar{
+	position: static;
 	border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;	
 	width: auto;
@@ -45,8 +60,8 @@ p{
 }
 
 .navbar li:hover{
-	background-color: grey;
-	color: white;
+	background-color: #a3d2ca;
+	color: black;
 	border-radius: 10px;
 	box-shadow: 0px 6px 10px 0.5px #4a3a3a;
 }
@@ -83,7 +98,7 @@ p{
 
 	padding: 10px;
 	border-radius: 8px;
-	margin: 20px 10px 10px 10px;
+	margin: 20px 10px 0px 10px;
 	width:auto;
 	height: 300px;
 	box-shadow: 0px 0px 10px 1px #4a3a3a;
