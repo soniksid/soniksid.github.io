@@ -1,0 +1,19 @@
+body{
+	margin: auto; 
+	background-color: #5eaaa8;
+	/*fot-family: 'Courgette', cursive;*/
+	font-family: 'Orbitron', sans-serif;
+}
+
+.main{
+	background-color: lightblue;
+
+}
+
+.pr-1{
+	background-color: grey;
+}
+
+.pr-2{
+	background-color: grey;
+}
