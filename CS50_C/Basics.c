@@ -37,10 +37,24 @@ int main(void) {
 // -------------------------------------------------------------
 // while loop
 
-int i=0;
-while ( i < 20){
-	printf("Do some work\n");
-	i++;
-}
-}
+// int i=0;
+// while ( i < 20){
+// 	printf("Do some work\n");
+// 	i++;
+// }
+// }
+//--------------------------------------------------------------
+// for loop to print a structure
 
+{
+	for(int i = 0; i <15; i++)
+	{
+		for(int j=0; j<56; j++)
+			{
+				printf("i is %d", &i);
+				printf("$");
+		}
+		printf("\n");
+	}
+}
+}
