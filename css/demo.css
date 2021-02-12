@@ -3,8 +3,8 @@
 body{
 	margin: auto; 
 	background-color: white;
-	/*fot-family: 'Courgette', cursive;*/
-	font-family: 'Orbitron', sans-serif;
+	font-family: 'Courgette', cursive;
+	/*font-family: 'Orbitron', sans-serif;*/
 }
 
 h2{
@@ -15,7 +15,7 @@ h2{
 .social-img{
 	margin-right: 5px;
 	color:  black; 
-	width: 15px;
+	width: 50px;
 }
 
 .social-icons{
@@ -88,6 +88,7 @@ p{
 }
 
 .first{
+	align-items: right;
 	padding: 10px;
 	border-radius: 8px;
 	margin: 80px 10px 10px 10px;
@@ -167,6 +168,26 @@ p{
 @media (min-width: 768px){
 	.main-content{
 		width: 768px;
+	}
+	.hobbies-img{
+		height: 100px;
+		width: 150px;
+	}
+}
+
+
+/*For Desktop*/
+@media (min-width: 100px){
+	.main-content{
+		width: 100%;
+	}
+	.first{
+		height: 400px;
+	}
+	.user-image{
+		position: right;
+		height: 200px;
+		width: 200px;
 	}
 	.hobbies-img{
 		height: 100px;
