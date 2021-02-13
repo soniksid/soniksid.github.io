@@ -1,0 +1,69 @@
+body{
+	margin: auto; 
+	background: url("img/favicon.png");
+	font-family: 'Courgette', cursive;
+	/*font-family: 'Orbitron', sans-serif;*/
+}
+
+h1{
+	color: white;
+	text-align: center;
+
+}
+
+.main-cont{
+	margin: auto;
+	background-image: linear-gradient(black, grey, lightgrey);
+	background-color: lightgrey;
+	width: auto;
+	padding: 10px; 
+}
+
+.user-box{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 800px;
+	width: 600px;
+}
+
+.user-img{
+	padding: 20px;
+	border-radius: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	height: 200px;
+}
+
+.social-icons{
+	display: block;
+	text-align: center;
+	height: auto;
+	width: auto;
+}
+
+.social-img{
+	margin: 5px;
+	width: 50px;
+}
+
+/*second Section*/
+.about{
+	padding: 10px;
+	margin: auto;
+	width: auto;
+	background-color: lightpink;
+}
+
+.about-me{
+	display: flex;
+}
+
+.about-image{
+	float: right;
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+}

@@ -89,9 +89,9 @@ p{
 
 .first{
 	align-items: right;
-	padding: 10px;
-	border-radius: 8px;
-	margin: 80px 10px 10px 10px;
+	/*padding: 10px;
+	border-radius: 8px;*/
+	margin: 60px 0px 0px 0px;
 	width:auto;
 	height: auto;
 	box-shadow: 0px 0px 10px 1px #4a3a3a;
