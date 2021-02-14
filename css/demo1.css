@@ -1,8 +1,9 @@
 body{
 	margin: auto; 
 	background: url("img/favicon.png");
-	font-family: 'Courgette', cursive;
+	/*font-family: 'Courgette', cursive;*/
 	/*font-family: 'Orbitron', sans-serif;*/
+	font-family: 'Lexend Mega', sans-serif;
 }
 
 h1{
@@ -11,20 +12,27 @@ h1{
 
 }
 
+h2{
+	font-size: 45px;
+	color: white;
+	padding: 0px 20px 0px 50px; 
+}
+
 .main-cont{
 	margin: auto;
 	background-image: linear-gradient(black, grey, lightgrey);
 	background-color: lightgrey;
-	width: auto;
+	width: 100%;
 	padding: 10px; 
 }
 
 .user-box{
+	padding-top: 110px; 
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	height: 800px;
-	width: 600px;
+	height: 600px;
+	width: 700px;
 }
 
 .user-img{
@@ -45,7 +53,7 @@ h1{
 }
 
 .social-img{
-	margin: 5px;
+	margin-right: 20px;
 	width: 50px;
 }
 
@@ -53,17 +61,40 @@ h1{
 .about{
 	padding: 10px;
 	margin: auto;
-	width: auto;
-	background-color: lightpink;
+	height: 600px;
+	width: 100%;
+	background-color: black;
 }
 
-.about-me{
-	display: flex;
+p{
+	font-size: 20px;
+	color: white;
+	width: 500px;
+	padding: 20px 20px 20px 50px; 
+}
+
+.about-left{
+	border-right: 1.5px solid white;
+	margin-top: 50px;
+	margin-left: 20px;
+	width: 692px;
+	height: 400px;
+	float: left;
+	background-color: black;
+}
+
+.about-right{
+	height: 500px;
+	float: right;
+	margin: 10px;
+	background-color: black;
 }
 
 .about-image{
+	margin-top: 80px; 
+	margin-right: 60px;
 	float: right;
-	height: 100px;
-	width: 100px;
+	height: 350px;
+	width: 350px;
 	border-radius: 100%;
 }
