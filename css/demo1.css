@@ -18,6 +18,14 @@ h2{
 	padding: 0px 20px 0px 50px; 
 }
 
+h5{
+	text-align: center;
+}
+
+a:hover{
+	fill: white;
+}
+
 .main-cont{
 	margin: auto;
 	background-image: linear-gradient(black, grey, lightgrey);
@@ -36,6 +44,7 @@ h2{
 }
 
 .user-img{
+	transition: transform .2s;
 	padding: 20px;
 	border-radius: 100%;
 	display: block;
@@ -43,6 +52,10 @@ h2{
 	margin-right: auto;
 	width: 200px;
 	height: 200px;
+}
+
+.user-img:hover{
+	transform: scale(1.4);
 }
 
 .social-icons{
@@ -54,7 +67,6 @@ h2{
 
 .social-img{
 	margin-right: 20px;
-	width: 50px;
 }
 
 /*second Section*/
@@ -91,10 +103,10 @@ p{
 }
 
 .about-image{
-	margin-top: 120px; 
-	margin-right: 60px;
+	margin-top: 150px; 
+	margin-right: 100px;
 	float: right;
-	height: 350px;
-	width: 350px;
+	height: 250px;
+	width: 250px;
 	border-radius: 100%;
 }
