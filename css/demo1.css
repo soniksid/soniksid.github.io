@@ -30,7 +30,7 @@ a:hover{
 	margin: auto;
 	/*background-image: url("");*/
 	/*background-image: linear-gradient(black, grey, lightgrey);*/
-	background-color: #28abb9;
+	background-color: #34626c;
 	width: 100%;
 	padding: 10px; 
 }
@@ -77,7 +77,7 @@ a:hover{
 	margin: auto;
 	height: 600px;
 	width: 100%;
-	background-color: black;
+	background-color: #30475e;
 }
 
 p{
@@ -94,7 +94,7 @@ p{
 	width: 690px;
 	height: 400px;
 	float: left;
-	background-color: black;
+	background-color: #30475e;
 }
 
 .about-right{
@@ -102,7 +102,7 @@ p{
 	float: right;
 	margin-top: 50px;
 	margin-right: 50px;
-	background-color: black;
+	background-color: #30475e;
 }
 
 .about-image{
@@ -119,19 +119,42 @@ p{
 	margin: auto;
 	height: 600px;
 	width: 100%;
-	background-color: #9088d4;
+	background-color: #214252;
 }
 
 .pro1{
-	margin: 20px 0px 0px 80px; 
+	margin: 50px 0px 0px 230px; 
 	height: auto;
 	width: auto;
 	float: left;
 	background-color: none;
-	box-shadow: 1px 2px 20px;
+	/*box-shadow: 1px 2px 20px;*/
 }
 
 .pro1-img{
-	height: 200px;
-	width: 300px;
+	border-radius: 2.5%;
+	height: 250px;
+	width: 350px;
+}
+
+.pro2{
+	margin: 50px 230px 0px 0px; 
+	height: auto;
+	width: auto;
+	float: right;
+	background-color: none;
+	/*box-shadow: 1px 2px 20px;*/
+}
+
+.pro2-img{
+	border-radius: 2.5%;
+	height: 250px;
+	width: 350px;
+}
+
+.pro1-img:hover{
+	box-shadow: 1px 2px 20px;
+}
+.pro2-img:hover{
+	box-shadow: 1px 2px 20px;
 }
