@@ -13,9 +13,14 @@ h1{
 }
 
 h2{
-	font-size: 45px;
+	font-size: 35px;
 	color: white;
 	padding: 0px 20px 0px 50px; 
+}
+
+h3{
+	margin-left: 125px;
+	color
 }
 
 h5{
@@ -115,6 +120,8 @@ p{
 }
 
 .pro{
+	display: flex;
+	justify-content: space-between;
 	padding: 10px;
 	margin: auto;
 	height: 600px;
@@ -123,33 +130,33 @@ p{
 }
 
 .pro1{
-	margin: 50px 0px 0px 230px; 
-	height: auto;
-	width: auto;
-	float: left;
+	/*margin: 50px 0px 0px 230px; */
+	height: 300px;
+	width: 600px;
+	margin: 10px;
+	/*float: left;*/
 	background-color: none;
 	/*box-shadow: 1px 2px 20px;*/
 }
 
 .pro1-img{
 	border-radius: 2.5%;
-	height: 250px;
-	width: 350px;
+	height: 100%;
+	width: 100%;
 }
 
-.pro2{
-	margin: 50px 230px 0px 0px; 
-	height: auto;
-	width: auto;
-	float: right;
+.pro2{ 
+	/*margin: 50px 0px 0px 230px; */
+	height: 200px;
+	width: 600px;
+	/*float: left;*/
 	background-color: none;
-	/*box-shadow: 1px 2px 20px;*/
 }
 
 .pro2-img{
 	border-radius: 2.5%;
-	height: 250px;
-	width: 350px;
+	height: 100%;
+	width: 100%;
 }
 
 .pro1-img:hover{
@@ -157,4 +164,18 @@ p{
 }
 .pro2-img:hover{
 	box-shadow: 1px 2px 20px;
+}
+
+.acheive{
+	padding: 10px;
+	height: 600px;
+	width: 100%;
+	background-color: grey;
+}
+
+.foot{
+	padding: 10px;
+	width: 100%;
+	height: 300px;
+	background-color: lightgrey;
 }
