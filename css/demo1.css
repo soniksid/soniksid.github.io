@@ -19,8 +19,7 @@ h2{
 }
 
 h3{
-	margin-left: 125px;
-	color
+	/*margin-left: 100px;*/
 }
 
 h5{
@@ -120,8 +119,6 @@ p{
 }
 
 .pro{
-	display: flex;
-	justify-content: space-between;
 	padding: 10px;
 	margin: auto;
 	height: 600px;
@@ -130,39 +127,42 @@ p{
 }
 
 .pro1{
-	/*margin: 50px 0px 0px 230px; */
-	height: 300px;
-	width: 600px;
-	margin: 10px;
-	/*float: left;*/
+	margin: 70px 0px 0px 200px; 
+	height: 200px;
+	width: 350px;
+	float: left;
 	background-color: none;
 	/*box-shadow: 1px 2px 20px;*/
 }
 
 .pro1-img{
+	filter: blur(2px);
 	border-radius: 2.5%;
 	height: 100%;
 	width: 100%;
 }
 
 .pro2{ 
-	/*margin: 50px 0px 0px 230px; */
+	margin: 70px 200px 0px 0px; 
 	height: 200px;
-	width: 600px;
-	/*float: left;*/
+	width: 350px;
+	float: right;
 	background-color: none;
 }
 
 .pro2-img{
+	filter: blur(2px);
 	border-radius: 2.5%;
 	height: 100%;
 	width: 100%;
 }
 
 .pro1-img:hover{
+	filter: none;
 	box-shadow: 1px 2px 20px;
 }
 .pro2-img:hover{
+	filter: none;
 	box-shadow: 1px 2px 20px;
 }
 
