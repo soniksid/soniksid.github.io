@@ -19,15 +19,58 @@ h2{
 }
 
 h3{
+	color: white;
 	/*margin-left: 100px;*/
+}
+
+h4{
+	margin-top:14px; 
+	color: white; 
 }
 
 h5{
 	text-align: center;
 }
 
+a{
+	text-decoration: none;
+}
+
 a:hover{
+
 	fill: white;
+}
+
+#logo{
+	height: 50px;
+	width: 50px;
+	margin:10px 0px 0px 10px; 
+}
+
+#img-logo{
+	height: 100%;
+	width: 100%;
+}
+
+#mail{
+	margin: -50px 30px 0px 0px;
+	background-color: #413c69;
+	border-radius: 10px;
+	text-align: center;
+	height: 65px;
+	width: 190px;
+	float: right;
+}
+
+#mail:hover{
+	box-shadow: 0px 0px 15px black;
+
+}
+
+.navbar{
+	display: block;
+	height: 120px;
+	width: 100%;
 }
 
 .main-cont{
@@ -44,7 +87,7 @@ a:hover{
 }
 
 .user-box{
-	padding-top: 90px; 
+	padding-top: 0px; 
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -89,7 +132,7 @@ a:hover{
 	margin: auto;
 	height: 600px;
 	width: 100%;
-	background-color: #30475e;
+	background-color: #210a25;
 }
 
 p{
@@ -110,7 +153,7 @@ p{
 	width: 690px;
 	height: 400px;
 	float: left;
-	background-color: #30475e;
+	background-color: #210a25;
 }
 
 .about-right{
@@ -122,7 +165,7 @@ p{
 	float: right;
 	margin-top: 50px;
 	margin-right: 50px;
-	background-color: #30475e;
+	background-color: #210a25;
 }
 
 .about-image{
@@ -140,16 +183,15 @@ p{
 	background-attachment: fixed;
 	background-size: cover;
 	padding: 10px;
-	margin: auto;
 	height: 600px;
 	width: 100%;
-	background-color: #214252;
+	background-color: #210a25;
 }
 
 .pro1{
-	margin: 70px 0px 0px 200px; 
-	height: 200px;
-	width: 350px;
+	margin: 130px 0px 0px 185px; 
+	height: 300px;
+	width: 400px;
 	float: left;
 	background-color: none;
 	/*box-shadow: 1px 2px 20px;*/
@@ -163,9 +205,9 @@ p{
 }
 
 .pro2{ 
-	margin: 70px 200px 0px 0px; 
-	height: 200px;
-	width: 350px;
+	margin: 58px 190px 0px 0px; 
+	height: 300px;
+	width: 400px;
 	float: right;
 	background-color: none;
 }
