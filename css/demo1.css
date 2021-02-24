@@ -229,11 +229,28 @@ p{
 }
 
 .acheive{
-	padding: 10px;
+	padding: 1px;
 	height: 600px;
 	width: 100%;
-	background-color: grey;
+	background-color: black;
 }
+
+.right-box{
+	background-color: lightblue; 
+	float: right;
+	width: 300px;
+	margin: 20px 30px 0px 0px; 
+}
+
+.left-box{
+	background-color: lightblue; 
+	float: left;
+	width: 300px;
+	margin: 20px 0px 0px 30px; 
+
+}
+
+
 
 .foot{
 	padding: 10px;
