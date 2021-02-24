@@ -35,6 +35,15 @@ h5{
 a{
 	text-decoration: none;
 }
+/*function for rotating image */
+@keyframes rotation {
+  from {
+  		transform: rotate(0deg);
+  }
+  to{
+  		transform: rotate(360deg);
+  }
+}
 
 a:hover{
 
@@ -42,14 +51,21 @@ a:hover{
 }
 
 #logo{
+
 	height: 50px;
 	width: 50px;
 	margin:10px 0px 0px 10px; 
 }
 
 #img-logo{
+	border-radius: 40%;
 	height: 100%;
 	width: 100%;
+}
+
+#img-logo:hover{
+	animation: rotation 1s linear;
+	box-shadow: 0px 0px 4px white;
 }
 
 #mail{
@@ -63,7 +79,7 @@ a:hover{
 }
 
 #mail:hover{
-	box-shadow: 0px 0px 15px black;
+	box-shadow: 0px 0px 15px lightgrey;
 
 }
 
@@ -229,30 +245,34 @@ p{
 }
 
 .acheive{
-	padding: 1px;
+	padding: 10px;
 	height: 600px;
 	width: 100%;
 	background-color: black;
 }
 
 .right-box{
-	background-color: lightblue; 
+	background-color: black; 
 	float: right;
 	width: 300px;
-	margin: 20px 30px 0px 0px; 
+	margin: 85px 240px 0px 0px; 
 }
 
 .left-box{
 	background-color: lightblue; 
 	float: left;
 	width: 300px;
-	margin: 20px 0px 0px 30px; 
+	margin: 85px 0px 0px 270px; 
 
+}
+.content{
+	padding: 10px;
 }
 
 
 
 .foot{
+	margin: auto;
 	padding: 10px;
 	width: 100%;
 	height: 300px;
