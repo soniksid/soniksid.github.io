@@ -83,7 +83,7 @@ a:hover{
 }
 
 .navbar{
-	margin-top: 15px;
+	margin: 15px 0px 0px 10px;
 	display: block;
 	height: 80px;
 	width: 100%;
