@@ -83,7 +83,7 @@ a:hover{
 }
 
 .navbar{
-	margin: 15px 0px 0px 10px;
+	margin: 15px;
 	display: block;
 	height: 80px;
 	width: 100%;
@@ -95,7 +95,7 @@ a:hover{
 	background-size: cover;
 	margin: auto;
 	background-color: #34626c;
-	width: 500px;
+	width: 480px;
 	padding: 10px; 
 }
 
@@ -105,8 +105,8 @@ a:hover{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	height: 400px;
-	width: 480px;
+	height: 390px;
+	width: 420px;
 }
 
 .user-img{
