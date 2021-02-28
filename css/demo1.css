@@ -1,20 +1,16 @@
 body{
 	margin: auto; 
 	background: url("img/favicon.png");
-	/*font-family: 'Courgette', cursive;*/
-	/*font-family: 'Orbitron', sans-serif;*/
 	font-family: 'Lexend Mega', sans-serif;
-
 }
 
 h1{
 	color: white;
 	text-align: center;
-
 }
 
 h2{
-	font-size: 35px;
+	text-align: center;
 	color: white;
 	padding: 0px 20px 0px 50px; 
 }
@@ -54,7 +50,6 @@ a:hover{
 }
 
 #logo{
-
 	height: 50px;
 	width: 50px;
 	margin:10px 0px 0px 10px; 
@@ -76,8 +71,8 @@ a:hover{
 	background-color: #413c69;
 	border-radius: 10px;
 	text-align: center;
-	height: 65px;
-	width: 190px;
+	height: 50px;
+	width: 100px;
 	float: right;
 }
 
@@ -101,7 +96,7 @@ a:hover{
 	/*background-image: url("");*/
 	/*background-image: linear-gradient(black, grey, lightgrey);*/
 	background-color: #34626c;
-	width: 100%;
+	width: 500px;
 	padding: 10px; 
 }
 
@@ -280,7 +275,7 @@ p{
 	height: 300px;
 	background-color: lightgrey;
 }
-
+/*
 @media (max-width: 480px){
 	p{
 		text-align: center;
@@ -340,4 +335,4 @@ p{
 	.foot{
 		max-width: 480px;
 	}
-}
+}*/
