@@ -10,6 +10,7 @@ h1{
 }
 
 h2{
+	margin: 40px;
 	text-align: center;
 	color: white;
 }
@@ -70,8 +71,10 @@ a:hover{
 }
 
 #mail{
+	box-shadow: inset 2px -2px 4px 0px #180d1c;
 	margin: 10px 10px 0px 0px;
 	background-color: #413c69;
+	border: 2px solid black;
 	border-radius: 10px;
 	text-align: center;
 	height: 50px;
@@ -80,7 +83,7 @@ a:hover{
 }
 
 #mail:hover{
-	box-shadow: 0px 0px 15px lightgrey;
+	box-shadow: 0px 0px 15px grey;
 
 }
 
@@ -160,7 +163,7 @@ a:hover{
 
 
 p{
-
+	margin-top: 80px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -171,9 +174,11 @@ p{
 }
 
 .about-left{
-	background-color: #ff7700;
 	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%231c1117' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23aa0000' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23380e34' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23a3001b' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23550a52' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%239c0036' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%2371076f' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23960052' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%238e038d' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%238f006d' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23aa00aa' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23880088' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+	background-attachment: fixed;
 	background-size: cover;
+	background-color: #ff7700;
+	margin-top: 20px;
 	width: 480px;
 	height: 400px;
 	background-color: #210a25;
@@ -252,24 +257,23 @@ p{
 }
 
 .acheive{
+	margin: auto;
 	padding: 10px;
 	height: 600px;
-	width: 100%;
+	width: 480px;
 	background-color: black;
 }
 
 .right-box{
-	background-color: black; 
-	float: right;
+	background-color: lightgreen; 
+	margin: 100px auto 0px auto;
 	width: 300px;
-	margin: 85px 240px 0px 0px; 
 }
 
 .left-box{
 	background-color: lightblue; 
-	float: left;
 	width: 300px;
-	margin: 85px 0px 0px 270px; 
+	margin: 10px auto 0px auto; 
 
 }
 .content{
@@ -279,8 +283,8 @@ p{
 .foot{
 	margin: auto;
 	padding: 10px;
-	width: 100%;
-	height: 300px;
+	width: 480px;
+	height: 250px;
 	background-color: lightgrey;
 }
 /*
