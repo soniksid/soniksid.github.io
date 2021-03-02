@@ -155,7 +155,7 @@ a:hover{
 
 /*second Section*/
 .about{
-	background: linear-gradient(0deg, #14231ef2, #a74242);
+	background: linear-gradient(0deg, #d8581e, #3d636b);
 	padding: 10px;
 	margin: auto;
 	height: 700px;
@@ -170,7 +170,7 @@ p{
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	font-size: 13.5px;
+	font-size: 20px;
 	color: white;
 	width: 400px;
 	padding: 20px 20px 20px 20px; 
@@ -186,9 +186,6 @@ p{
 
 .about-right{
 	display: none;
-	background-color: #ff7700;
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%231c1117' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23aa0000' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23380e34' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23a3001b' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23550a52' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%239c0036' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%2371076f' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23960052' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%238e038d' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%238f006d' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23aa00aa' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23880088' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
-	background-attachment: fixed;
 	background-size: cover;
 	height: 100px;
 	background-color: #210a25;
@@ -202,15 +199,11 @@ p{
 }
 
 .pro{
-	margin: -1px auto;
-	background-color: #ff7700;
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%231c1117' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23aa0000' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23380e34' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23a3001b' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23550a52' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%239c0036' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%2371076f' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23960052' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%238e038d' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%238f006d' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23aa00aa' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23880088' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
-	background-attachment: fixed;
-	background-size: cover;
+	background: linear-gradient(0deg, #355052, #da5a1c);
 	padding: 10px;
 	height: 800px;
 	width: 480px;
-	background-color: #210a25;
+	
 }
 
 .pro1{
@@ -259,9 +252,9 @@ p{
 .acheive{
 	margin: auto;
 	padding: 10px;
-	height: 600px;
+	height: 700px;
 	width: 480px;
-	background-color: #210a25;
+	background: linear-gradient(0deg, #bd7351, #40514f);
 }
 
 .right-box{
@@ -277,12 +270,20 @@ p{
 }
 
 .git-section{
-
+	background: linear-gradient(0deg, #bd7351, #40514f);
 	padding: 10px;
 	margin: auto;
 	background-color: #210a25;
 	width: 480px;
-	height: 300px;
+	height: 500px;
+}
+
+#acheive-para{
+	width: auto;
+	margin-top: 0px;
+}
+.content{
+	background: transparent;
 }
 
 .foot{
