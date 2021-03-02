@@ -202,6 +202,7 @@ p{
 
 .pro{
 	background: linear-gradient(0deg, #45524f, #a3bd85);
+	margin: auto;
 	padding: 10px;
 	height: 800px;
 	width: 480px;
@@ -251,10 +252,21 @@ p{
 	box-shadow: 1px 2px 20px;
 }
 
+#acheive-para{
+	padding: 0px 15px;
+	border-left: 1px solid;
+    text-align: initial;
+    margin-left: 45px;
+	line-height: 20px;
+	font-size: 15px;
+	width: auto;
+	margin-top: 0px;
+}
+
 .acheive{
 	margin: auto;
 	padding: 10px;
-	height: 700px;
+	height: 770px;
 	width: 480px;
 	background: linear-gradient(0deg, #bd7351, #40514f);
 }
@@ -274,6 +286,11 @@ p{
 	margin: 10px auto 0px auto;
 }
 
+.fourth-box{
+	width: 350px;
+	margin: 10px auto 0px auto;
+}
+
 .git-section{
 	background: linear-gradient(180deg, #bd7351, #62a9a0);
 	padding: 10px;
@@ -281,17 +298,6 @@ p{
 	background-color: #210a25;
 	width: 480px;
 	height: 500px;
-}
-
-#acheive-para{
-	padding: 0px 15px;
-	border-left: 1px solid;
-    text-align: initial;
-    margin-left: 45px;
-	line-height: 20px;
-	font-size: 15px;
-	width: auto;
-	margin-top: 0px;
 }
 
 .content{
