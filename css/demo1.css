@@ -76,10 +76,10 @@ a:hover{
 }
 
 #mail{
-	box-shadow: inset 2px -2px 4px 0px #180d1c;
+	box-shadow: inset 0px 0px 4px 0px #180d1c;
 	margin: 10px 10px 0px 0px;
-	background-color: #413c69;
-	border: 1px solid black;
+	background-color: #a76365;
+	border: 1px solid #753c3c;
 	border-radius: 10px;
 	text-align: center;
 	height: 50px;
@@ -88,7 +88,7 @@ a:hover{
 }
 
 #mail:hover{
-	box-shadow: 0px 0px 15px black;
+	box-shadow: 0px 4px 2px 0px black;
 
 }
 
@@ -309,7 +309,7 @@ p{
 	padding: 10px;
 	width: 480px;
 	height: 250px;
-	background-color: lightgrey;
+	background: linear-gradient(0deg, #3a6490, #749e8f);
 }
 /*
 @media (max-width: 480px){
