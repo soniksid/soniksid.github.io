@@ -1,7 +1,9 @@
 body{
 	margin: auto; 
+	letter-spacing: 2.5px;
 	background: url("img/favicon.png");
-	font-family: 'Lexend Mega', sans-serif;
+	font-family: 'Prata', serif;
+	/*font-family: 'Lexend Mega', sans-serif;*/
 }
 
 h1{
@@ -67,7 +69,7 @@ a:hover{
 
 #img-logo:hover{
 	animation: rotation 1s linear;
-	box-shadow: 0px 0px 4px white;
+	box-shadow: 0px 0px 4px black;
 }
 
 #mail{
@@ -94,18 +96,18 @@ a:hover{
 }
 
 .main-cont{
-	background-color: #000000;
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg %3E%3Ccircle fill='%23000000' cx='400' cy='400' r='600'/%3E%3Ccircle fill='%23180d1c' cx='400' cy='400' r='500'/%3E%3Ccircle fill='%23261431' cx='400' cy='400' r='400'/%3E%3Ccircle fill='%23351947' cx='400' cy='400' r='300'/%3E%3Ccircle fill='%23451e5e' cx='400' cy='400' r='200'/%3E%3Ccircle fill='%23552277' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
-	background-size: cover;
+	background: linear-gradient(181deg, #bb6363, #34626c);
 	margin: auto;
 	background-color: #34626c;
 	width: 480px;
+	height: 700px;
 	padding: 10px; 
 }
 
 
 .user-box{
-	padding-top: 0px; 
+	margin-top: 50px; 
+	padding-top: 20px; 
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -120,8 +122,8 @@ a:hover{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 150px;
-	height: 150px;
+	width: 200px;
+	height: 200px;
 }
 
 .user-img:hover{
@@ -150,20 +152,17 @@ a:hover{
 
 /*second Section*/
 .about{
-	background-color: #ff7700;
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%231c1117' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23aa0000' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23380e34' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23a3001b' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23550a52' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%239c0036' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%2371076f' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23960052' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%238e038d' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%238f006d' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23aa00aa' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23880088' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
-	background-attachment: fixed;
-	background-size: cover;
+	background: linear-gradient(0deg, #14231ef2, #a74242);
 	padding: 10px;
 	margin: auto;
-	height: 480px;
+	height: 700px;
 	width: 480px;
 	background-color: #210a25;
 }
 
 
 p{
-	line-height: 30px;
+	line-height: 35px;
 	margin-top: 80px;
 	margin-left: auto;
 	margin-right: auto;
@@ -175,15 +174,11 @@ p{
 }
 
 .about-left{
-	border-bottom: 1px solid white; 
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%231c1117' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23aa0000' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23380e34' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23a3001b' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23550a52' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%239c0036' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%2371076f' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23960052' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%238e038d' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%238f006d' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23aa00aa' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23880088' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
-	background-attachment: fixed;
-	background-size: cover;
-	background-color: #ff7700;
+	background: transparent;
 	margin-top: 20px;
 	width: 480px;
 	height: 400px;
-	background-color: #210a25;
+	
 }
 
 .about-right{
