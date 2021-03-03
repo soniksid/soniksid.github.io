@@ -3,7 +3,6 @@ body{
 	font-weight: 2em;
 	margin: auto; 
 	letter-spacing: 2.5px;
-	background: url("img/favicon.png");
 	font-family: 'Prata', serif;
 	/*font-family: 'Lexend Mega', sans-serif;*/
 }
@@ -31,7 +30,6 @@ h4{
 }
 
 h5{
-	
 	color: white;
 	margin: 0px;
 	padding-top: 10px;
@@ -340,6 +338,16 @@ p{
 	.main-cont{
 		width: 600px;
 	}
+	.user-box{
+		height: 500px;
+		width: 550px;
+	}
+	.user-img{
+		height: 300px;
+		width: 300px;
+	}
+
+
 	.about{
 		width: 600px;
 	}
