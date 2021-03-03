@@ -22,7 +22,7 @@ h2{
 
 h3{
 	text-align: center;
-	color: black;
+	color: white;
 }
 
 h4{
@@ -210,8 +210,10 @@ p{
 }
 
 .pro1{
+	margin-bottom: 100px;
+	position: relative;
+	text-align: center;
 	display: block;
-	padding-bottom: 100px;
 	margin-right: auto;
 	margin-left: auto; 
 	height: 200px;
@@ -227,7 +229,9 @@ p{
 	width: 100%;
 }
 
-.pro2{ 
+.pro2{
+	position: relative;
+	text-align: center;
 	display: block;
 	margin-right: auto;
 	margin-left: auto; 
@@ -251,6 +255,25 @@ p{
 	filter: none;
 	box-shadow: 1px 2px 20px;
 }
+
+
+.center{
+
+	font-weight: 900;
+    background-color: #7db987;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 13px;
+    width: 120px;
+}
+.center:hover{
+	box-shadow: 1px 2px 20px;
+}
+
 
 #acheive-para{
 	padding: 0px 15px;
@@ -306,10 +329,10 @@ p{
 
 .foot{
 	margin: auto;
-	padding: 10px;
-	width: 480px;
-	height: 250px;
-	background: linear-gradient(0deg, #3a6490, #749e8f);
+    padding: 10px;
+    width: 480px;
+    height: 250px;
+    background: #bd7452;
 }
 /*
 @media (max-width: 480px){
