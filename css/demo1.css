@@ -180,9 +180,9 @@ p{
 }
 
 .about-left{
+	text-align: center;
 	background: transparent;
 	margin-top: 20px;
-	width: 480px;
 	height: 400px;
 	
 }
@@ -335,64 +335,70 @@ p{
     height: 250px;
     background: #bd7452;
 }
-/*
-@media (max-width: 480px){
-	p{
-		text-align: center;
-		padding: 5px;
-		font-size: 10px;
-		width: 300px;
-		height: 200px;
-	}
-	body{
-		background-color: grey;
-		width: 480px;
-		margin: auto;
-		padding: 5px;
-	}
-	h2{
-		font-size: 20px;
-	}
 
-	.navbar{
-		width: 480px;
-	}
+@media screen and (min-width: 480px){
 	.main-cont{
-		background-color: white;
-		min-width: 500px;
-		height: auto;
-	}
-	.user-box{
-		width: 480px;
-		height: auto;
+		width: 600px;
 	}
 	.about{
-		margin: 2px;
-		height: 300px;
-		min-width: 480px;
-	}
-	.about-left{
-		margin: 0px;
-		width: 300px;
-		height: 200px;
-	}
-	.about-right{
-		margin: 0px; 
-		width: 100px;
-		height: 100px;
-	}
-	.about-image{
-		margin: 0px;
-		width: 100px;
-		height: 100px;
+		width: 600px;
 	}
 	.pro{
-		max-width: 480px;
+		width: 600px;
 	}
 	.acheive{
-		max-width: 480px;
+		width: 600px;
+	}
+	.git-section{
+		width: 600px;
 	}
 	.foot{
-		max-width: 480px;
+		width: 600px;
 	}
-}*/
+	
+}
+
+@media screen and (min-width: 768px){
+	.main-cont{
+		width: 770px;
+	}
+	.about{
+		width: 770px;
+	}
+	.pro{
+		width: 770px;
+	}
+	.acheive{
+		width: 770px;
+	}
+	.git-section{
+		width: 770px;
+	}
+	.foot{
+		width: 770px;
+	}
+	
+}
+
+@media screen and (min-width: 600px){
+	.main-cont{
+		width: 765px;
+	}
+	.about{
+		width: 765px;
+	}
+	.pro{
+		width: 765px;
+	}
+	.acheive{
+		width: 765px;
+	}
+	.git-section{
+		width: 765px;
+	}
+	.foot{
+		width: 765px;
+	}
+	
+}
+
