@@ -401,4 +401,25 @@ p{
 	}
 	
 }
+@media screen and (min-width: 800px){
+	.main-cont{
+		width: 1024px;
+	}
+	.about{
+		width: 1024px;
+	}
+	.pro{
+		width: 1024px;
+	}
+	.acheive{
+		width: 1024px;
+	}
+	.git-section{
+		width: 1024px;
+	}
+	.foot{
+		width: 1024px;
+	}
+	
+}
 
