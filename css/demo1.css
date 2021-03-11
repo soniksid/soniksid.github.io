@@ -78,7 +78,7 @@ a:hover{
 #mail{
 	color: white;
 	font-size: 15px;
-	box-shadow: inset 0px 0px 4px 0px #180d1c;
+	box-shadow: 0px 0px 4px 0px #180d1c;
 	margin: 10px 10px 0px 0px;
 	background-color: #ceb7b782;
 	border: 1px solid black;
@@ -90,11 +90,13 @@ a:hover{
 }
 
 #mail:hover{
-	box-shadow: 0px 4px 2px 0px grey;
+	box-shadow: 0px 4px 2px 0px black;
 
 }
 
 .navbar{
+	border-radius: 8px;
+	background-color: #00000094;
 	display: block;
 	height: 80px;
 	width: 100%;
@@ -112,12 +114,12 @@ a:hover{
 
 .user-box{
     background-color: #00000026;
-    margin-top: 100px;
+    margin-top: 95px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 5px;
-    height: 515px;
+    height: auto;
     width: 420px;
     padding: 15px;
 }
@@ -129,8 +131,8 @@ a:hover{
 	margin-top: 40px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 200px;
-	height: 200px;
+	width: 240px;
+	height: 240px;
 }
 
 .user-img:hover{
@@ -147,8 +149,8 @@ a:hover{
 
 #h5-font-size{
 	font-size: 20px;
-	margin: 25px 5px 5px 5px;
-	padding-bottom: 10px;
+	margin: 25px 5px 15px 5px;
+	padding-bottom: 25px;
 }
 
 .social-img{
@@ -517,15 +519,15 @@ p{
 }
 @media screen and (min-width: 1000px){
 	.main-cont{
-		padding: 0px;
+		
 		width: 100%;
 	}
 	.about{
-		padding: 0px;
 		width: 100%;
 		height: 800px
 	}
 	.about-left{
+		padding-right: 60px;
 		border-right: 2.5px solid black;
 		margin-top: 90px;
 		margin-left: 20px;
@@ -534,9 +536,10 @@ p{
 		float: left;
 	}
 	.about-right{
-		height: 500px;
-		float: right;
-		margin: 300px 25px 100px 0px;
+		height: 290px;
+    	float: right;
+    	margin: 251px 89px 105px 0px;
+
 	}
 	.about-image{
 		height: 250px;
@@ -545,15 +548,13 @@ p{
 	}
 	.pro{
 		margin: auto;
-		padding: 1px;
 		width: 100%;
 	}
 	.acheive{
-		padding: 1px;
 		width: 100%;
 	}
 	.git-section{
-		padding: 5px;
+		
 		width: 100%;
 	}
 	.git-section-img{
@@ -562,7 +563,7 @@ p{
 		height: 160px;
 	}
 	.foot{
-		padding: 5px;
+		
 		width: 100%;
 	}
 	
