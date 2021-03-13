@@ -13,16 +13,16 @@ h1{
 }
 
 h2{
-	border-bottom: 2px solid;
+	/*border-bottom: 2px solid;*/
 	padding-bottom: 30px;
 	margin: 40px;
 	text-align: center;
-	color: black;
+	color: white;
 }
 
 h3{
 	text-align: center;
-	color: black;
+	color: white;
 }
 
 h4{
@@ -276,7 +276,9 @@ p{
 
 
 #acheive-para{
-	padding: 0px 15px;
+    box-shadow: 0px 0px 10px 1px black;
+    border-radius: 5px;
+	padding: 20px 20px;
 	border-left: 1px solid;
     text-align: initial;
     margin-left: 45px;
@@ -289,7 +291,7 @@ p{
 .acheive{
 	margin: auto;
 	padding: 10px;
-	height: 770px;
+	height: 900px;
 	width: 480px;
 	background-image: url(img/acheive.jpg);
 }
@@ -317,13 +319,14 @@ p{
 .git-section{
 	background: linear-gradient(180deg, #bd7351, #62a9a0);
 	padding: 10px;
-	margin: auto;
+	
 	background-color: #210a25;
 	width: 480px;
 	height: 500px;
 }
 
 .git-section-img{
+	margin-top: 50px;
 	width: 480px;
 	height: 90px;
 }
@@ -374,7 +377,6 @@ p{
 		width: 50px;
 
 	}
-
 
 	h3{
 		font-size: 25px;
@@ -490,7 +492,7 @@ p{
 		float: left;
 	}
 	.about-right{
-		height: 500px;
+		height: 200px;
 		float: right;
 		margin: 300px 25px 100px 0px;
 	}
@@ -551,16 +553,18 @@ p{
 		width: 100%;
 	}
 	.acheive{
+		height: 980px;
 		width: 100%;
 	}
 	.git-section{
-		
+		display: block;
+		margin: 2px auto;
+		height: 600px;
 		width: 100%;
 	}
 	.git-section-img{
-		margin: 20px auto;
-		width: 1000px;
-		height: 160px;
+		width: 1320px;
+		height: 200px;
 	}
 	.foot{
 		
