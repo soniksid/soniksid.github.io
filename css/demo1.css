@@ -1,6 +1,6 @@
 body{
 	/*background: url(file:///C:/users/SidSon/Desktop/sub_back.png);*/
-	font-weight: 21em;
+	font-weight: 21em; 
 	margin: auto; 
 	letter-spacing: 2.5px;
 	font-family: 'Prata', serif;
@@ -57,8 +57,8 @@ a:hover{
 }
 
 #logo{
-	margin-left: 10px;
-	margin-top: 10px;
+	margin-left: 17px;
+	margin-top: 15px;
 	float: left;
 	height: 45px;
 	width: 45px;
@@ -76,17 +76,19 @@ a:hover{
 }
 
 #mail{
-	color: white;
-	font-size: 15px;
-	box-shadow: 0px 0px 4px 0px #180d1c;
-	margin: 10px 10px 0px 0px;
-	background-color: #ceb7b782;
-	border: 1px solid black;
-	border-radius: 10px;
-	text-align: center;
-	height: 50px;
-	width: 140px;
-	float: right;
+
+	
+    color: white;
+    font-size: 15px;
+    /* box-shadow: 0px 0px 2px 3px #ffffff; */
+    margin: 10px 10px 0px 0px;
+    background-color: #e6c1c1;
+    /* border: 1px solid #000000; */
+    border-radius: 5px;
+    text-align: center;
+    height: 50px;
+    width: 140px;
+    float: right;
 }
 
 #mail:hover{
@@ -96,7 +98,7 @@ a:hover{
 
 .navbar{
 	border-radius: 8px;
-	background-color: #00000094;
+	background-color: #000000fa;
 	display: block;
 	height: 80px;
 	width: 100%;
@@ -197,8 +199,8 @@ p{
 	height: 100px;
 	width: 100px;
 	border-radius: 100%;
-}
 
+}
 .pro{
 	/*background: linear-gradient(0deg, #45524f, #a3bd85);*/
 	background-color: black;
@@ -319,7 +321,6 @@ p{
 .git-section{
 	background: linear-gradient(180deg, #bd7351, #62a9a0);
 	padding: 10px;
-	
 	background-color: #210a25;
 	width: 480px;
 	height: 500px;
@@ -506,6 +507,7 @@ p{
 	}
 	.acheive{
 		width: 1024px;
+		background-image: url(img/arduino.jpg);
 	}
 	.git-section{
 		width: 1024px;
