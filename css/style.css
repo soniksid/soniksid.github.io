@@ -1,0 +1,261 @@
+:root{
+	--mainColor: #595260;
+	--secondaryColor: #b2b1b9;
+	--borderColor: #595260;
+	--mainText: #000000;
+	--secondaryText: #4fab4d;
+
+}
+html, body{
+	font-family: 'Roboto', sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+h1, h2, h3, h4, h5, h6, li{
+	color: var(--mainText);
+	font-family: 'Jost', sans-serif;
+}
+
+h1 {font-size: 50px; text-align: center; color: white;}
+h2 {font-size: 35px;}
+h3 {font-size: 30px;}
+h4 {font-size: 18px;}
+
+p {
+	font-size: 18px;
+}
+
+li { font-weight: bold; font-size: 15px; }
+
+a{
+	text-decoration: none;
+	color: purple;
+}
+
+li {
+	list-style: none;
+}
+
+hr {border: 1px solid black;}
+
+.s1{
+	background-color: var(--mainColor);
+	border-bottom: 2px solid var(--borderColor);
+	overflow: auto;
+}
+
+.s2 {
+	background-color: var(--secondaryColor);
+	border-bottom: 2px solid var(--borderColor);
+	overflow: auto;
+}
+
+.main-container {
+	background-color: var(--secondaryColor);
+	width: 1200px;
+	margin: 0 auto;
+
+}
+
+.greeting-area {
+	background-color: var(--mainColor);
+	align-content: center;
+	justify-content: center;
+	min-height: 10em;
+	display: grid;
+
+}
+
+.intro-section {
+	box-shadow: 0px 2px 8px 5px #2C2E43;
+	background-color: var(--secondaryColor);
+	border: 1px solid var(--mainColor);
+	border-radius: 5px 5px 0px 0px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-areas:
+		'nav nav'
+		'left-column right-column'
+	; 
+}
+
+.nav-section {
+	background-color: #d4cfcf; 
+	grid-area: nav;
+	border-radius: 5px 5px 0px 0px;
+	border-bottom: 1.5px solid #c4c0c0;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+}
+
+.dot-section {
+	display: flex;
+	padding: 10px;
+}
+
+#dot1 {background-color: #FF605C;}
+#dot2 {background-color: #FFBD44;}
+#dot3 {background-color: #00CA4E;}
+
+
+.browser-dot {
+	box-shadow: -1px 1px 3px -1px rgb(0 0 0 / 75%);
+	margin: 5px;
+	height: 15px;
+	width: 15px;
+	background-color: black;
+	border-radius: 50%
+}
+
+#contact-section {
+	padding: 10px;
+	margin: 0px;
+}
+
+.left-column {
+	padding: 50px 0px 50px 0px;
+	grid-area: left-column;
+	background-color: var(--secondaryColor);
+	/*border: 1px solid var(--mainColor); */
+}
+
+#profile-img {
+	box-shadow: 0px 1px 10px 1px #524d4d;
+	display: block;
+	margin: 0 auto;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+}
+
+#theme-section {
+	display: flex;
+	justify-content: center;
+}
+
+.theme-dot {
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	margin: 8px;
+	border: 2px solid var(--mainColor);
+	box-shadow: 0px 1px 5px 2px grey;
+	cursor: pointer; 
+}
+
+.theme-dot:hover{
+	border-color: white;
+	border-width: 5px;
+}
+
+#blue-mode { background-color: blue;}
+#maroon-mode { background-color: maroon;}
+#purple-mode { background-color: purple;}
+#dark-mode { background-color: grey;}
+
+
+.right-column {
+	display: grid;
+	margin: 0 auto;
+	align-content: center;
+	grid-column: right-column;
+	background-color: var(--secondaryColor);
+	padding: 50px 0px;  
+}
+
+#text-box-shadow {
+	background-color: #d2cdcdb3;
+	width: 280px;
+	height: 180px;
+	padding-left: 30px;
+	padding-top: 30px;
+}
+
+#right-text-box {
+	padding: 15px;
+	width: 280px;
+	border: 1.5px solid black;
+}
+
+.about-section {
+	display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    padding-bottom: 50px;
+    padding-top: 50px;
+    gap: 100px;
+}
+
+.social-section {
+	padding-top: 100px;
+}
+
+
+#skills {
+	display: flex;
+	justify-content: space-evenly;
+	background-color: #d2cdcdb3;  
+}
+
+#social-img {
+	width: 100%;
+	border-radius: 5px;
+	box-shadow: 1px 2px 5px 2px grey;
+}
+
+
+.twitter-follow-button { 
+	box-shadow: -1px 1px 9px 0px grey;
+ 	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
+.linkedin-badge {
+	color: black;
+	box-shadow: -1px 1px 9px 0px grey;
+	margin-top: 10px;
+	border-radius: 3px; 
+	line-height: 0;
+    justify-content: center;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: lightblue;
+    height: 20px;
+    width: 148px;
+}
+
+.linkedin-badge:hover{
+	background-color: #5ecdf1;
+	cursor: pointer;
+}
+
+
+@media screen and (max-width: 1200px){
+	.main-container{
+		width: 95%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 838px){
+	.intro-section {
+	box-shadow: 0px 2px 8px 5px grey;
+	background-color: var(--secondaryColor);
+	border: 1px solid var(--mainColor);
+	border-radius: 5px 5px 0px 0px;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-areas:
+		'nav'
+		'left-column' 'right-column'
+		; 
+	}
+
+	.left-column {
+		justify-content: center;
+	}
+}
