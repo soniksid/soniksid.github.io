@@ -1,6 +1,6 @@
 :root{
-	--mainColor: #5ecdf1;
-	--secondaryColor: #b2b1b9;
+	--mainColor: #ffc857;
+	--secondaryColor: #78c6a3;
 	--borderColor: #595260;
 	--mainText: #000000;
 	--secondaryText: #4fab4d;
@@ -40,7 +40,7 @@ li { font-weight: bold; font-size: 15px;}
 
 a{
 	text-decoration: none;
-	color: purple;
+	color: black;
 }
 
 li {
@@ -89,10 +89,10 @@ hr {border: 1px solid black;}
 }
 
 .nav-section {
-	background-color: #d4cfcf; 
+	background-color: #56ab91; 
 	grid-area: nav;
 	border-radius: 15px 15px 0% 0%;
-	border-bottom: 1.5px solid #c4c0c0;
+	border-bottom: 1.5px solid black;
 	display: flex;
 	justify-content: space-between;
 	align-content: center;
@@ -159,10 +159,10 @@ hr {border: 1px solid black;}
 	box-shadow: 0px 1px 8px 3px grey;
 }
 
-#blue-mode { background-color: blue;}
-#maroon-mode { background-color: maroon;}
-#purple-mode { background-color: purple;}
-#dark-mode { background-color: grey;}
+#pink-mode { background-color: #ef476f;}
+#green-mode { background-color: #06d6a0;}
+#blue-mode { background-color: #118ab2;}
+#dark-mode { background-color: #073b4c;}
 
 
 .right-column {
@@ -175,7 +175,7 @@ hr {border: 1px solid black;}
 }
 
 #text-box-shadow {
-	background-color: #d2cdcdb3;
+	background-color: #99e2b4;
 	width: 280px;
 	height: 180px;
 	padding-left: 30px;
@@ -204,7 +204,7 @@ hr {border: 1px solid black;}
 #skills {
 	display: flex;
 	justify-content: space-evenly;
-	background-color: #d2cdcdb3;  
+	background-color: #99e2b4;  
 }
 
 #social-img {
