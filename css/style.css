@@ -92,7 +92,6 @@ hr {border: 1px solid black;}
 	background-color: #56ab91; 
 	grid-area: nav;
 	border-radius: 15px 15px 0% 0%;
-	border-bottom: 1.5px solid black;
 	display: flex;
 	justify-content: space-between;
 	align-content: center;
