@@ -3,11 +3,22 @@
 	--secondaryColor: #78c6a3;
 	--borderColor: #595260;
 	--mainText: #000000;
-	--secondaryText: #4fab4d;
-	--textboxshadowColor: #99e2b4;
+	--navColor: #3f4cc5;
+	--textboxColor: #99e2b4;
 	--boxshadowColor: #2c2e43;
-
+	--textboxborderColor: black;
+	--linkColor: black;
+	--hrColor: black;
+	--paraColor: black;
+	--imgShadowColor: #524d4d;
+	--dotBorderColor: black;
+	--formFontColor: black;
+	--formTextAreaColor: white;
+	--buttonColor: black;
+	--hoverColor: black;
+	--dotBorderHoverColor: white;
 }
+
 html, body{
 	font-family: 'Roboto', sans-serif;
 	padding: 0px;
@@ -28,6 +39,7 @@ h5 {font-size: 18px;}
 
 p {
 	font-size: 18px;
+	color: var(--paraColor);
 }
 
 
@@ -40,20 +52,17 @@ p {
 	width: 50%;
 }
 
-li { font-weight: bold; font-size: 15px;}
+li { font-weight: bold; font-size: 15px; list-style: none;}
 
 a{
 	text-decoration: none;
-	color: black;
+	color: var(--linkColor);
 }
 
 a:hover {color: white;}
 
-li {
-	list-style: none;
-}
 
-hr {border: 1px solid black;}
+hr {border: 1px solid var(--hrColor);}
 
 .s1{
 	padding-bottom: 100px;
@@ -136,7 +145,7 @@ hr {border: 1px solid black;}
 }
 
 #profile-img {
-	box-shadow: 0px 1px 10px 1px #524d4d;
+	box-shadow: 0px 1px 10px 1px var(--imgShadowColor);
 	display: block;
 	margin: 0 auto;
 	height: 200px;
@@ -154,14 +163,14 @@ hr {border: 1px solid black;}
 	width: 30px;
 	border-radius: 50%;
 	margin: 8px;
-	border: 2px solid white;
+	border: 2px solid var(--dotBorderColor);
 	box-shadow: 0px 1px 5px 2px grey;
 	cursor: pointer; 
 }
 
 .theme-dot:hover{
-	border-color: black;
-	box-shadow: 0px 1px 8px 3px grey;
+	border-color: var(--dotBorderHoverColor);
+	box-shadow: 0px 1px 8px 3px var(--boxshadowColor);
 }
 
 #pink-mode { background-color: #ef476f;}
@@ -180,7 +189,7 @@ hr {border: 1px solid black;}
 }
 
 #text-box-shadow {
-	background-color: var(--textboxshadowColor);
+	background-color: var(--textboxColor);
     width: 250px;
     height: 230px;
     padding-left: 20px;
@@ -191,7 +200,7 @@ hr {border: 1px solid black;}
 	padding: 15px;
 	height: 215px;
 	width: 235px;
-	border: 1.5px solid black;
+	border: 1.5px solid var(--textboxborderColor);
 }
 
 .about-section {
@@ -210,7 +219,7 @@ hr {border: 1px solid black;}
 #skills {
 	display: flex;
 	justify-content: space-evenly;
-	background-color: #99e2b4;  
+	background-color: var(--textboxColor);  
 }
 
 #social-img {
@@ -221,7 +230,7 @@ hr {border: 1px solid black;}
 
 
 .twitter-follow-button { 
-	box-shadow: -1px 1px 9px 0px grey;
+	box-shadow: -1px 1px 9px 0px var(--boxshadowColor);
  	margin-right: auto;
 	margin-left: auto;
 	display: block;
@@ -229,7 +238,7 @@ hr {border: 1px solid black;}
 
 .linkedin-badge {
 	color: black;
-	box-shadow: -1px 1px 9px 0px grey;
+	box-shadow: -1px 1px 9px 0px var(--boxshadowColor);
 	margin-top: 10px;
 	border-radius: 3px; 
 	line-height: 0;
@@ -278,7 +287,7 @@ hr {border: 1px solid black;}
 	height: 180px;
 }
 
-.contact-form {
+#contact-form {
 	font-family: 'Jost', sans-serif;
 	display: block;
 	margin: 0 auto;
@@ -287,11 +296,12 @@ hr {border: 1px solid black;}
 	max-width: 600px;
 	border-radius: 15px;
 	margin-bottom: 50px;
-	box-shadow: 0px 5px 10px 0px #292828;
+	box-shadow: 0px 5px 10px 0px var(--boxshadowColor);
 
 }
 
-#input-field {
+.input-field {
+	background-color: var(--formTextAreaColor);
 	font-family: 'Jost', sans-serif;
 	width: 100%;
 	padding: 10px 1px;
@@ -309,10 +319,12 @@ hr {border: 1px solid black;}
 	width: 100%;
 	border-radius: 5px;
 	padding: 10px 0px;
+	color: var(--buttonColor);
 	background-color: var(--secondaryColor);
 }
 
-.contact-form label {
+#contact-form label {
+	color: var(--formFontColor);
 	font-weight: 600;
 	line-height: 50px;
 }

@@ -1,10 +1,20 @@
 :root{
-	--mainColor: #5EB1BF;
-	--secondaryColor: #187cd2;
+	--mainColor: #737379;
+	--secondaryColor: #4d5250;
 	--borderColor: #595260;
-	--mainText: #000000;
-	--navColor: #3f4cc5;
-	--textboxColor: #4f9ae0;
-	--boxshadowColor: #2c2e43;
-
+	--mainText: #ffff;
+	--navColor: black;
+	--textboxColor: #2d2a22;
+	--boxshadowColor: black;
+	--textboxborderColor: white;
+	--linkColor: white;
+	--hrColor: white;
+	--paraColor: white;
+	--imgShadowColor: black;
+	--dotBorderColor: white;
+	--formFontColor: white;
+	--formTextAreaColor: grey;
+	--buttonColor: white;
+	--hoverColor: black;
+	--dotBorderHoverColor: black;
 }
