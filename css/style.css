@@ -3,7 +3,13 @@
 	--secondaryColor: #78c6a3;
 	--borderColor: #595260;
 	--mainText: #000000;
+<<<<<<< Updated upstream
 	--secondaryText: #4fab4d;
+=======
+	--navColor: #56ab91;
+	--textboxColor: #99e2b4;
+	--boxshadowColor: #2c2e43;
+>>>>>>> Stashed changes
 
 }
 html, body{
@@ -89,7 +95,7 @@ hr {border: 1px solid black;}
 }
 
 .nav-section {
-	background-color: #56ab91; 
+	background-color: var(--navColor); 
 	grid-area: nav;
 	border-radius: 15px 15px 0% 0%;
 	display: flex;
@@ -174,11 +180,19 @@ hr {border: 1px solid black;}
 }
 
 #text-box-shadow {
+<<<<<<< Updated upstream
 	background-color: #99e2b4;
 	width: 280px;
 	height: 180px;
 	padding-left: 30px;
 	padding-top: 30px;
+=======
+	background-color: var(--textboxColor);
+    width: 250px;
+    height: 230px;
+    padding-left: 20px;
+    padding-top: 20px;
+>>>>>>> Stashed changes
 }
 
 #right-text-box {
@@ -203,7 +217,7 @@ hr {border: 1px solid black;}
 #skills {
 	display: flex;
 	justify-content: space-evenly;
-	background-color: #99e2b4;  
+	background-color: var(--textboxColor);  
 }
 
 #social-img {
