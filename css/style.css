@@ -3,20 +3,19 @@
 	--secondaryColor: #78c6a3;
 	--borderColor: #595260;
 	--mainText: #000000;
-	/*--navColor: #3f4cc5;*/
+	--navColor: #399889;
 	--textboxColor: #99e2b4;
-	--boxshadowColor: #2c2e43;
+	--boxshadowColor: #000000;
 	--textboxborderColor: black;
 	--linkColor: black;
 	--hrColor: black;
 	--paraColor: black;
 	--imgShadowColor: #524d4d;
-	--dotBorderColor: black;
 	--formFontColor: black;
 	--formTextAreaColor: white;
 	--buttonColor: black;
-	--hoverColor: black;
-	--dotBorderHoverColor: white;
+	--hoverColor: white;
+	--svgColor: black;
 }
 
 html, body{
@@ -104,7 +103,7 @@ hr {border: 1px solid var(--hrColor);}
 }
 
 .nav-section {
-	background-color: #56ab91; 
+	background-color: var(--navColor); 
 	grid-area: nav;
 	border-radius: 15px 15px 0% 0%;
 	display: flex;
@@ -131,9 +130,16 @@ hr {border: 1px solid var(--hrColor);}
 	border-radius: 50%
 }
 
-#contact-section {
-	padding: 10px;
+.theme-dot {
+	transition: 0.2s;
+	fill: var(--svgColor);
+	padding: 10px 15px 10px 0px;
 	margin: 0px;
+}
+
+.theme-dot:hover {
+	fill: var(--hoverColor);
+	cursor: pointer;
 }
 
 .left-column {
@@ -153,30 +159,24 @@ hr {border: 1px solid var(--hrColor);}
 	border-radius: 50%;
 }
 
-#theme-section {
+.social-icons-section {
 	display: flex;
 	justify-content: center;
 }
 
-.theme-dot {
+#dot-icons {
+	fill: var(--svgColor);
 	height: 30px;
 	width: 30px;
-	border-radius: 50%;
 	margin: 8px;
-	border: 2px solid var(--dotBorderColor);
-	box-shadow: 0px 1px 5px 2px grey;
-	cursor: pointer; 
+	cursor: pointer;
 }
 
-.theme-dot:hover{
-	border-color: var(--dotBorderHoverColor);
-	box-shadow: 0px 1px 8px 3px var(--boxshadowColor);
+#dot-icons:hover{
+	transition: 0.4s;
+	fill: var(--hoverColor);
 }
 
-#pink-mode { background-color: #ef476f;}
-#green-mode { background-color: #06d6a0;}
-#blue-mode { background-color: #118ab2;}
-#dark-mode { background-color: #073b4c;}
 
 
 .right-column {
@@ -265,13 +265,13 @@ hr {border: 1px solid var(--hrColor);}
 }
 
 .post {
-	box-shadow: 0px 5px 10px 0px #292828;
+	box-shadow: 0px 5px 10px 0px var(--boxshadowColor);
 	border-radius: 10px 10px;
 }
 
 .post:hover {
 	cursor: pointer;
-	box-shadow: 0px 8px 15px 0px #292828; 
+	box-shadow: 0px 8px 15px 0px var(--boxshadowColor); 
 }
 
 .post-preview {
