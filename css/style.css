@@ -10,6 +10,7 @@
 	--linkColor: black;
 	--hrColor: black;
 	--paraColor: black;
+	--profileBgColor: #ffc857;
 	--imgShadowColor: #524d4d;
 	--formFontColor: black;
 	--formTextAreaColor: white;
@@ -151,6 +152,7 @@ hr {border: 1px solid var(--hrColor);}
 }
 
 #profile-img {
+	background-color: var(--profileBgColor);
 	box-shadow: 0px 1px 10px 1px var(--imgShadowColor);
 	display: block;
 	margin: 0 auto;
@@ -230,6 +232,7 @@ hr {border: 1px solid var(--hrColor);}
 
 
 .twitter-follow-button { 
+	border-radius: 8px;
 	box-shadow: -1px 1px 9px 0px var(--boxshadowColor);
  	margin-right: auto;
 	margin-left: auto;

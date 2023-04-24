@@ -1,0 +1,63 @@
+Title: How to make a burglar alarm using Arduino UNO
+
+A small and cheap electronic device that alerts people while someone enters a room.
+
+## Step 1: Materials required
+
+- Arduino UNO board
+- HC-SR0 Ultrasonic sensor module
+- Buzzer
+- Mini Breadboard
+- Jumper wires
+- LED
+- 9V Battery
+- 5.5mm barrel cable
+
+## Step 2: Setting up connection
+
+![Terrific Gaaris.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1632240509111/3fcdGDb57.png)
+
+> I used TinkerCad editor for making this circuit schematic
+
+## Step 3: Upload the source code
+
+
+```
+// Define pins for ultrasonic and buzzer
+int const trigPin = 9;
+int const echoPin = 10;
+int const buzzPin = 11;
+int const ledPin = 12;
+
+void setup()
+{
+pinMode(trigPin, OUTPUT); // trig pin will have pulses output
+pinMode(echoPin, INPUT); // echo pin should be input to get pulse width
+pinMode(buzzPin, OUTPUT); // buzz pin is output to control buzzering
+}
+void loop()
+{
+
+int duration, distance;
+// Output pulse with 1ms width on trigPin
+digitalWrite(trigPin, HIGH);
+delay(1);
+digitalWrite(trigPin, LOW);
+// Measure the pulse input in echo pin
+duration = pulseIn(echoPin, HIGH);
+// Distance is half the duration devided by 29.1 (from datasheet)
+distance = (duration/2) / 29.1;
+// if distance less than 0.5 meter and more than 0 (0 or less means over range)
+if (distance <= 50 && distance >= 0) {
+// Buzz
+digitalWrite(buzzPin, HIGH);
+digitalWrite(ledPin, HIGH);
+} else {
+// Don't buzz
+digitalWrite(buzzPin, LOW);
+digitalWrite(ledPin. LOW);
+}
+// Waiting 60 ms won't hurt any one
+delay(60);
+}
+```
