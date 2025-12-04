@@ -1,6 +1,8 @@
+
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Download } from 'lucide-react';
+import profileImg from '../assets/profile.jpg';
 
 const Hero = () => {
     return (
@@ -57,8 +59,11 @@ const Hero = () => {
                     <div className="relative w-64 h-64 md:w-96 md:h-96">
                         <div className="absolute inset-0 bg-gradient-to-tr from-pastel-blue to-purple-500 rounded-full opacity-20 blur-xl animate-pulse" />
                         <div className="relative w-full h-full rounded-full border-2 border-white/10 glass overflow-hidden flex items-center justify-center bg-black/50">
-                            <span className="text-gray-500">Profile Image Placeholder</span>
-                            {/* Replace with actual image: <img src="/path/to/image.jpg" alt="Siddharth Soni" className="w-full h-full object-cover" /> */}
+                            <img
+                                src={profileImg}
+                                alt="Siddharth Soni"
+                                className="w-full h-full object-cover"
+                            />
                         </div>
                     </div>
                 </motion.div>
