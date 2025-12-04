@@ -63,38 +63,31 @@ const Experience = () => {
                     My <span className="text-pastel-blue">Journey</span>
                 </motion.h2>
 
-                <div className="relative max-w-3xl mx-auto">
-                    {/* Vertical Line */}
-                    <div className="absolute left-8 md:left-1/2 top-0 bottom-0 w-0.5 bg-white/10 transform md:-translate-x-1/2" />
-
+                <div className="max-w-4xl mx-auto space-y-8">
                     {timeline.map((item, index) => (
                         <motion.div
                             key={index}
-                            initial={{ opacity: 0, y: 50 }}
+                            initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ duration: 0.5, delay: index * 0.1 }}
-                            className={`relative flex items-center mb-12 ${index % 2 === 0 ? 'md:flex-row-reverse' : 'md:flex-row'
-                                }`}
                         >
-                            {/* Timeline Dot */}
-                            <div className="absolute left-8 md:left-1/2 transform -translate-x-1/2 flex items-center justify-center w-10 h-10 rounded-full bg-background border-4 border-gray-800 z-10">
-                                <div className={`w-3 h-3 rounded-full ${item.color.replace('text-', 'bg-')}`} />
-                            </div>
-
-                            {/* Content Card */}
-                            <div className={`ml-20 md:ml-0 md:w-1/2 ${index % 2 === 0 ? 'md:pl-12' : 'md:pr-12'
-                                }`}>
-                                <div className="glass-card p-6 rounded-xl hover:-translate-y-1 transition-transform duration-300">
-                                    <div className={`inline-flex items-center justify-center p-2 rounded-lg mb-4 ${item.bg} ${item.color}`}>
+                            <div className="glass-card p-8 rounded-2xl hover:bg-white/10 transition-all duration-300 border border-white/5 hover:border-white/20 hover:shadow-2xl hover:backdrop-blur-xl group">
+                                <div className="flex flex-col md:flex-row gap-6 items-start">
+                                    <div className={`p-3 rounded-xl ${item.bg} ${item.color} group-hover:scale-110 transition-transform duration-300`}>
                                         {item.icon}
                                     </div>
-                                    <span className="block text-sm text-gray-400 mb-1">{item.year}</span>
-                                    <h3 className="text-xl font-bold mb-1">{item.title}</h3>
-                                    <p className="text-pastel-blue text-sm mb-3">{item.org}</p>
-                                    <p className="text-gray-300 text-sm leading-relaxed">
-                                        {item.description}
-                                    </p>
+                                    <div>
+                                        <div className="flex flex-col md:flex-row md:items-center gap-2 mb-2">
+                                            <h3 className="text-xl font-bold">{item.title}</h3>
+                                            <span className="hidden md:block text-gray-600">•</span>
+                                            <p className="text-pastel-blue font-medium">{item.org}</p>
+                                        </div>
+                                        <p className="text-sm text-gray-400 mb-3">{item.year}</p>
+                                        <p className="text-gray-300 leading-relaxed">
+                                            {item.description}
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </motion.div>

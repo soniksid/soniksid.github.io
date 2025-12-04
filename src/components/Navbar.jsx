@@ -22,9 +22,9 @@ const Navbar = () => {
     ];
 
     return (
-        <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${scrolled ? 'glass py-4' : 'bg-transparent py-6'}`}>
+        <nav className={`fixed top-0 w-full z-50 transition-all duration-500 ${scrolled ? 'glass py-4' : 'bg-transparent py-6 border-transparent'}`}>
             <div className="container mx-auto px-6 flex justify-between items-center">
-                <a href="#" className="text-2xl font-bold text-pastel-blue tracking-wider">
+                <a href="#" className="text-2xl font-bold text-pastel-blue tracking-wider glass-btn border border-transparent hover:border-white/10">
                     SIDDHARTH<span className="text-white">SONI</span>
                 </a>
 
@@ -34,7 +34,7 @@ const Navbar = () => {
                         <a
                             key={link.name}
                             href={link.href}
-                            className="text-gray-300 hover:text-pastel-blue transition-colors duration-300 text-sm uppercase tracking-widest"
+                            className="text-gray-300 glass-btn border border-transparent hover:text-pastel-blue text-sm uppercase tracking-widest"
                         >
                             {link.name}
                         </a>
