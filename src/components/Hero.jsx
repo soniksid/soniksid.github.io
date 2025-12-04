@@ -1,8 +1,8 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Download } from 'lucide-react';
 import profileImg from '../assets/profile.jpg';
+import cvFile from '../assets/CV_SIDDHARTH_Kempten.pdf';
 
 const Hero = () => {
     return (
@@ -34,15 +34,16 @@ const Hero = () => {
 
                     <div className="flex flex-col md:flex-row gap-4 justify-center md:justify-start">
                         <a
-                            href="#"
-                            className="px-8 py-3 bg-pastel-blue text-black font-bold rounded-full hover:bg-white transition-all duration-300 flex items-center justify-center gap-2"
+                            href={cvFile}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="px-8 py-3 glass-btn border border-transparent hover:border-white/10 text-white font-bold rounded-full transition-all duration-300 flex items-center justify-center"
                         >
-                            <Download size={20} />
-                            Download CV
+                            Get CV
                         </a>
                         <a
                             href="#connect"
-                            className="px-8 py-3 border border-white/20 rounded-full hover:bg-white/10 transition-all duration-300"
+                            className="px-8 py-3 glass-btn border border-transparent hover:border-white/10 rounded-full transition-all duration-300"
                         >
                             Let's Connect
                         </a>
