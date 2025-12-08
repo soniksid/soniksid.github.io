@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import profileImg from '../assets/profile.jpg';
+import profileImg from '../assets/Professional_Profile_Siddharth.png';
 import cvFile from '../assets/CV_SIDDHARTH_Kempten.pdf';
 
 const Hero = () => {
