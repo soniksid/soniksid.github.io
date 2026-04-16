@@ -3,27 +3,92 @@
 @tailwind utilities;
 
 @layer base {
+  :root {
+    --bg-color: #0f0f0f;
+    --text-color: #ffffff;
+    --text-muted: #9ca3af;
+    --glass-bg: rgba(255, 255, 255, 0.05);
+    --glass-border: rgba(255, 255, 255, 0.1);
+    --glass-hover: rgba(255, 255, 255, 0.1);
+    --nav-bg: rgba(15, 15, 15, 0.7);
+  }
+
+  :root[data-theme='light'] {
+    --bg-color: #ffffff;
+    --text-color: #1f2937;
+    --text-muted: #4b5563;
+    --glass-bg: rgba(255, 255, 255, 0.8);
+    --glass-border: rgba(0, 0, 0, 0.1);
+    --glass-hover: rgba(0, 0, 0, 0.05);
+    --nav-bg: rgba(255, 255, 255, 0.8);
+  }
+
   html {
     scroll-behavior: smooth;
     scroll-padding-top: 80px;
-    /* Adjust based on navbar height */
   }
 
   body {
-    @apply bg-background text-white font-sans antialiased;
+    @apply font-sans antialiased;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.5s ease, color 0.5s ease;
   }
 }
 
 @layer utilities {
   .glass {
-    @apply bg-glass-white backdrop-blur-lg border border-white/10 shadow-xl;
+    backdrop-filter: blur(16px);
+    background-color: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   }
 
   .glass-card {
-    @apply bg-white/5 backdrop-blur-md border border-white/5 shadow-lg hover:bg-white/10 transition-all duration-300;
+    backdrop-filter: blur(12px);
+    background-color: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    transition: all 0.3s ease;
+  }
+  
+  .glass-card:hover {
+    background-color: var(--glass-hover);
+    border-color: var(--glass-border);
   }
 
   .glass-btn {
-    @apply px-4 py-2 rounded-lg transition-all duration-300 hover:bg-white/10 hover:backdrop-blur-md hover:border hover:border-white/10 hover:shadow-lg;
+    @apply px-4 py-2 rounded-lg transition-all duration-300;
+    border: 1px solid transparent;
+  }
+  
+  .glass-btn:hover {
+    background-color: var(--glass-hover);
+    backdrop-filter: blur(8px);
+    border: 1px solid var(--glass-border);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Light Theme Utilities Overrides */
+  :root[data-theme='light'] .text-white {
+    color: var(--text-color) !important;
+  }
+
+  :root[data-theme='light'] .text-gray-200,
+  :root[data-theme='light'] .text-gray-300,
+  :root[data-theme='light'] .text-gray-400,
+  :root[data-theme='light'] .text-gray-500 {
+    color: var(--text-muted) !important;
+  }
+
+  :root[data-theme='light'] .bg-black\/20,
+  :root[data-theme='light'] .bg-black\/40,
+  :root[data-theme='light'] .bg-black\/50 {
+    background-color: var(--glass-bg) !important;
+  }
+
+  :root[data-theme='light'] .border-white\/5,
+  :root[data-theme='light'] .border-white\/10,
+  :root[data-theme='light'] .border-white\/20 {
+    border-color: var(--glass-border) !important;
   }
 }

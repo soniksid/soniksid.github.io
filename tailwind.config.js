@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: '#0f0f0f', // Dark Grey/Black
+        background: 'var(--bg-color)', // Dark Grey/Black via css var
         'pastel-blue': '#aec6cf', // Pastel Blue accent
         'glass-white': 'rgba(255, 255, 255, 0.1)',
       },
